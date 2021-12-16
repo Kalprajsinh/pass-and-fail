@@ -1,0 +1,23 @@
+#include <stdio.h>
+void main()
+{
+    int x;
+ 
+    printf("Input your Mark :");
+    scanf("%d", &x);
+    if(x>=35 && x<=100)
+    {
+        printf("\nyou are pass");
+    }
+   else
+    if(x<35 && x>=0)
+    {
+        printf("\nyou are fail");
+    }
+   else
+    {
+        printf("\nnot valid");
+    }
+
+}
+    
